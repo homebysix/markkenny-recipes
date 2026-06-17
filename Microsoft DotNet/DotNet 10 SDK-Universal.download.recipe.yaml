@@ -10,6 +10,9 @@ Input:
   INTEL_PKG: INTEL
 
 Process:
+  - Processor: DeprecationWarning
+    Arguments:
+      warning_message: "Consider switching to DotNet 10 SDK recipes in the dataJAR-recipes repo. This recipe is deprecated and will be removed in the future."
   - Processor: URLTextSearcher
     Arguments:
       url: https://dotnet.microsoft.com/en-us/download/dotnet/10.0
